@@ -210,11 +210,12 @@ header #menu{
 }
 
 .home{
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    background:url(./Images/home-bg.jpg) no-repeat;
+    background:url(./Images/bgg.webp) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
