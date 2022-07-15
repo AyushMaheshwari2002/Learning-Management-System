@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management System</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><i class="fas fa-user-graduate"></i>LMS</a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#course">Course</a></li>
+            <li><a href="#teacher">Teacher</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="login" class="fas fa-user-circle"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form  -->
+
+<div class="login-form">
+
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" placeholder="username" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p>Forget Password? <a href="#">Click Here</a></p>
+        <p>Don't have an account? <a href="#">Register Now</a></p>
+        <input type="submit" class="btn" value="Login">
+        <i class="fas fa-times"></i>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h1>Learning Management System</h1>
+    <p>A learning management system (LMS) is a software application for the administration, documentation, tracking, reporting and delivery of educational courses or training programs.</p>
+    <a href="#course"><button class="btn">Get Started</button></a>
+
+    <!-- <div class="shape"></div> -->
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- course section starts  -->
+
+<section class="course" id="course">
+
+<h1 class="heading">Our Popular Courses</h1>    
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="./Images/frontend.png" alt="">
+        <h3 class="price">₹199</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=nAsBMaaWs38" target = "_blank" class="title">Front End Development</a>
+            <p>Get started as a front-end web developer using HTML, CSS, JavaScript, jQuery, and Bootstrap!</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 24 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 3 months </h3>
+                <h3> <i class="fas fa-book"></i> 80 videos </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="./Images/backend.webp" alt="">
+        <h3 class="price">₹299</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=fupTFbQv3MQ&list=PL-Jc9J83PIiEnK1q9tuVrrORqKBexcE_J" target = "_blank" class="title">Back End Development</a>
+            <p>Learn everything about backend web development: Golang, Postgres, Gin, gRPC, Kubernetes, AWS, GitHub Actions</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 20 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 3 months </h3>
+                <h3> <i class="fas fa-book"></i> 80 videos </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/fullstack.png" alt="">
+        <h3 class="price">₹499</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=MBC7Ddu_4l4&list=PL-Jc9J83PIiEeD3I4VXETPDmzJ3Z1rWb4&index=3" target = "_blank" class="title">Full Stack Development</a>
+            <p>Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 40 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+                <h3> <i class="fas fa-book"></i> 250 videos </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/dsa.png" alt="">
+        <h3 class="price">₹499</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=AT14lCXuMKI&list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU" target = "_blank" class="title">Data Structures and Algorithm</a>
+            <p>Learn in-depth about Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Recursion, Heaps, Hashing and Sorting</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 25 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 5 months </h3>
+                <h3> <i class="fas fa-book"></i> 180 videos </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/c++.png" alt="">
+        <h3 class="price">$199</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=Iuo9PpGE04Y&list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF" target = "_blank" class="title">C++ Programming Language</a>
+            <p>Obtain Modern C++ Object-Oriented Programming (OOP) and STL skills. C++14 and C++17 covered. C++20 info see below.</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 15 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 3 months </h3>
+                <h3> <i class="fas fa-book"></i> 100 videos </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/os.jpg" alt="">
+        <h3 class="price">₹299</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=bkSWJJZNgf8&list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p" target = "_blank" class="title">Operating System Full Course</a>
+            <p>Learn the concepts of Operating Systems from scratch as Operating System forms the core of Computer Science</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 12 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 2 months </h3>
+                <h3> <i class="fas fa-book"></i> 50 videos </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/compilerDesign.webp" alt="">
+        <h3 class="price">₹199</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=KBulg_u-b3w&list=PLrjkTql3jnm-wW5XdvumCa1u9LjczipjA" target = "_blank" class="title">Compiler Design Full Course</a>
+            <p>The Ultimate Graphic Design Course Which Covers Photoshop, Illustrator, InDesign,Design Theory, Branding and Logo Design</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 10 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 2 months </h3>
+                <h3> <i class="fas fa-book"></i> 50 videos </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/learning.jpg" alt="">
+        <h3 class="price">₹199</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=kBdlM6hNDAE&list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y" target = "_blank" class="title">DBMS Full Course</a>
+            <p>Learn ACID, Indexing, Partitioning, Sharding, Concurrency control, Replication, DB Engines, Best Practices and More!</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 6 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 1 months </h3>
+                <h3> <i class="fas fa-book"></i> 50 videos </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/java.jpg" alt="">
+        <h3 class="price">₹299</h3>
+        <div class="content">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=IsLyduxZ9sc&list=PLX9Zi6XTqOKQ7TdRz0QynGIKuMV9Q2H8E" target = "_blank" class="title">Learn Java Programming</a>
+            <p>Become an Experienced Java Developer with Just One Course. Fully Updated with 100+ Coding Challenges!</p>
+            <div class="info">
+                <h3> <i class="far fa-clock"></i> 15 hours </h3>
+                <h3> <i class="far fa-calendar-alt"></i> 4 months </h3>
+                <h3> <i class="fas fa-book"></i> 80 videos </h3>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- course section ends -->
+
+<!-- teacher section starts  -->
+
+<section class="teacher" id="teacher">
+
+<h1 class="heading">Our Expert Teachers</h1>
+<b><p>Changing learning for the better</p></b>
+<p>Whether you want to learn or to share what you know, you’ve come to the right place. As a global destination for online learning, we connect people through knowledge.</p>
+
+<a href="#"><button class="btn">Learn More</button></a>
+
+</section>
+
+<!-- teacher section ends -->
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="./Images/Studying-cuate.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Why choose us?</h3><br><br>
+        <ul>
+            <h1>
+                <li>Learn in-demand skills with video courses.</li>
+                <li>Choose courses taught by real-world youtubers.</li>
+                <li>Learn at your own pace, with lifetime access on mobile and desktop.</li>
+                <li>Get unlimited access to structured courses & contact us form for doubt clearing.</li>
+                <li>Learn anytime, anywhere.</li>
+            </h1>
+        </ul>
+        <br>
+        <br>
+        <a href="#"><button class="btn">Learn More</button></a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading">Contact Us</h1>
+
+<div class="row">
+
+    <form action="">
+        <input type="text" placeholder="full name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <input type="number" placeholder="your number" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="Write question if any..."></textarea>
+        <input type="submit" class="btn" value="Submit">
+    </form>
+
+    <div class="image">
+        <img src="./Images/contact-img.png" alt="">
+    </div>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Branch Locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">France</a>
+            <a href="#">Russia</a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#course">Course</a>
+            <a href="#teacher">Teachers</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i> Dehradun, India 400104. </p>
+            <p> <i class="fas fa-envelope"></i> example@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+        </div>
+
+    </div>
+
+    <h1 class="credit">Created by <a href="#">Ayush Maheshwari</a> All Rights are Reserved. </h1>
+
+</div>
+
+<!-- footer section ends -->
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
