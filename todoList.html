@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <link rel="stylesheet" href="todostyle.css">
+    <style> 
+        a{text-decoration:none}
+    </style>
+</head>
+
+<body>
+    
+    <!-- navbar  -->
+    <nav class="navbar">
+        <ul>
+            <h1><a class="active" style="color: goldenrod" href="index.html">Home</a></h1>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Task List</h1>
+        <form id="new-task-form">
+            <input type="text" name="new-task-input" id="new-task-input" placeholder="What do you have planned?" />
+            <input type="submit" id="new-task-submit" value="Add task" />
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+
+            <div id="tasks">
+
+            </div>
+        </section>
+    </main>
+
+    <script src="todoapp.js"></script>
+</body>
+
+</html>
